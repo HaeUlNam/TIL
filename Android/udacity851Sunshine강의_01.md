@@ -1,0 +1,39 @@
+### minSDK
+
+모든 사용자를 커버하도록 MinSDK를 설정하면, 그것에 따른 개발 cost가 많이 들기에 생각하고 적절히 설정해야 한다.<br>
+
+### targetSDK
+
+targetSDK는 가장 높은 SDK 선언 기준을 뜻하는 것은 아니다. App을 테스트한 플랫폼 버전을 선언하는데 사용되는 것이다.<br>
+만약 이후에 device 버전이 올라간다고 해도 targetSDK에 호환되어 device가 동작하게 된다.<br>
+새로운 App을 개발할 때 최신 릴리즈된 버전을 사용하는 것을 권장하며, 이후에 새로운 릴리즈 버전이 나온다면 이에 따라 업데이트하고 테스트해야 한다.<br>
+
+### Android Software Stack
+
+![스크린샷 2020-03-09 오전 10 31 55](https://user-images.githubusercontent.com/26040955/76175765-62c03e00-61f1-11ea-86af-a314a4403f15.png)
+
+1) Android Studio는 Gradle이라는 빌드 도구를 이용하여 작성한 App을 Apk로 변환하는 것을 자동화한다.
+2) 그 다음 Android Studio는 ADB(Android Debugging Bridge)를 통해 device에 APK를 설치하게 된다.
+3) adb push(기기에 파일 복사) -> adb install(기기에 App 설치) -> adb start(기기에서 App 시작)
+
+### Activity
+
+- 4대 컴포넌트들은 Android Manifest에 등록되어 있기에 Android에서 컴포넌트들을 인지할 수 있다.
+- Android에서 사용자와 상호작용을 담당하고 있는 컴포넌트.
+- 시스템은 Activity Stack을 통해 사용자의 상황을 저장한다.
+<br><br>
+![스크린샷 2020-03-09 오전 11 05 09](https://user-images.githubusercontent.com/26040955/76176930-d95f3a80-61f5-11ea-81ab-e9f3b4d9b65b.png)
+
+Q. Activity가 어떻게 런처에 등록될까요?
+A. Android Manifest에는 Application 태그 안에 Activity 태그가 있고, 이 안에 Launcher에게 정보를 주는 intent-filter 태그가 존재한다.<br>
+이를 통해, 런처에 등록된다.
+
+- xml을 통해 어떤 종류의 view객체를 UI가 만들지 정해준다.
+- setContentView를 통해 xml파일을 UI로 바꾸어준다.
+- view는 Android UI Framework에 있는 class이다.
+- R class는 상수값을 통해 개발자가 res 폴더의 다양한 자원들에 동적으로 접근할 수 있도록 한다.
+
+
+
+
+
