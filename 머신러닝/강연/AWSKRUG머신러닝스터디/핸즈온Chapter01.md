@@ -75,5 +75,7 @@ ex) 스팸메일 필터링
   20퍼?)
   * Train, Validation, Test: https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7
   
-  
+### Superb AI 소개
+
+- 라벨링하는 것이 가장 어렵다... 따로 팀이 있는 건 아니라서ㅠㅠㅠ..
   
