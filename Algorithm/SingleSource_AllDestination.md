@@ -18,7 +18,7 @@
   - binary heap일 경우 VlogV + ElogV
 
 - 음수의 weight에 있는 그래프에서 사용불가.
-  - 이유: greedy 개념이기에 이전까지 거쳐 온 노드들이 최단거리임이 보장되어야 하는데(optimal substructure), 음수 가중치가 있으면 예외 경우가 생기기에 사용할 수 없다.
+  - 이유: greedy 개념이기에 이전까지 거쳐 온 노드들이 최단거리임이 보장되어야 하는데(greedy property), 음수 가중치가 있으면 예외 경우가 생기기에 사용할 수 없다.
 - 만약 weight가 없는 그래프의 경우 BFS와 동일
 
 ## 벨만포드
