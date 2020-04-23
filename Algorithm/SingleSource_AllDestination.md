@@ -1,10 +1,9 @@
 ## 다익스트라
 - 다익스트라는 greedy 알고리즘 중 하나로서 음수 weight가 없는 그래프에서 하나의 source로부터 모든 destination의 최단거리를 구할 때 사용한다.
   - greedy인 이유는 iteration이 진행되면서 그 순간에 최적해가 결정되기에 그렇다.
-  - 그런데.. 찾다보니 greedy와 DP의 두 가지를 모두 가지고 있다는 이야기가 많다. 아래 참고...
-  - https://stackoverflow.com/questions/14038011/dijkstras-algorithm-a-greedy-or-dynamic-programming-algorithm
-![스크린샷 2020-04-23 오후 10 57 40](https://user-images.githubusercontent.com/26040955/80107275-d6f24d80-85b5-11ea-85b1-3c86437496ef.png)
-
+  - 다익스트라가 greedy인지 dp인지 논쟁이 많은 거 같은데, 아래 글이 정리해주고 있다.
+  - https://www.quora.com/Is-Dijkstras-Algorithm-a-greedy-algorithm-or-a-dynamic-programming-algorithm
+  
 - 여기서 초기 node를 정하고 모든 vertex에 대해 진행해나가면서, d[v] < d[u] + w(u,v) 이면 해당하는 노드의 최단거리를 변경해주게 된다.
 
 ![스크린샷 2020-04-23 오후 10 58 02](https://user-images.githubusercontent.com/26040955/80107330-e4a7d300-85b5-11ea-827f-64a4eb56b77f.png)
