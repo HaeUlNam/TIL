@@ -1,6 +1,6 @@
 ## 다익스트라
 - 다익스트라는 greedy 알고리즘 중 하나로서 음수 weight가 없는 그래프에서 하나의 source로부터 모든 destination의 최단거리를 구할 때 사용한다.
-
+  - greedy인 이유는 iteration이 진행되면서 그 순간에 최적해가 결정되기에 그렇다.
 ![스크린샷 2020-04-23 오후 10 57 40](https://user-images.githubusercontent.com/26040955/80107275-d6f24d80-85b5-11ea-85b1-3c86437496ef.png)
 
 - 여기서 초기 node를 정하고 모든 vertex에 대해 진행해나가면서, d[v] < d[u] + w(u,v) 이면 해당하는 노드의 최단거리를 변경해주게 된다.
@@ -36,7 +36,10 @@
   
   
   
-  
+### 참고하면 좋을 자료
+- 다익스트라: https://www.youtube.com/watch?v=XB4MIexjvY0
+- 벨만포드: https://www.youtube.com/watch?v=FtN3BYH2Zes
+- 영어자료지만 설명을 잘해서 들어볼만하다. 추천!
   
   
   
