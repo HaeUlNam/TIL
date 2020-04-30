@@ -19,8 +19,8 @@
 
 
 ### Thread의 장점 
-- <b>프로세스</b>보다 쓰레드간 context switching 시간이 짧다. 자원을 공유하기도 하면서 PCB를 통째로 불러오지 않아도 되기에..
-- <b>IPC(Inter Process Communication)</b>와 달리 Heap 등의 자원을 공유하기에 커널의 도움없이 상호간에 통신이 가능하다.
+- [프로세스](https://github.com/HaeUlNam/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Process.md)보다 쓰레드간 context switching 시간이 짧다. 자원을 공유하기도 하면서 PCB를 통째로 불러오지 않아도 되기에..
+- IPC(Inter Process Communication)와 달리 Heap 등의 자원을 공유하기에 커널의 도움없이 상호간에 통신이 가능하다.
 - 프로그램 반응성 향상
   * Android에서 <b>main thread에서 UI 처리</b>, background thread에서 네트워크 처리를 통해 사용자가 답답함을 느끼지 않도록 할 수 있다.
 
