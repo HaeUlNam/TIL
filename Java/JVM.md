@@ -26,7 +26,11 @@
 
 ### Execution Engine의 두 가지 컴파일 방식
 - Interpreter
-- JIT(Just-In-Time)
+- JIT(Just-In-Time): 프로그램을 실제 실행하는 시점에서(실시간에) 기계어로 번역하는 컴파일 기법
+  * 같은 코드를 매번 해석하지 않고 실행할 때 컴파일을 하면서 해당 코드를 캐싱. 이후에, 바뀐 부분만 컴파일하고 나머지는 캐싱된 것을 사용.
+  따라서 Interpreter의 속도를 개선할 수 있다.
+![image](https://user-images.githubusercontent.com/26040955/81029321-630e4a00-8ebf-11ea-9120-01e4be037ad2.png)
+
 
 ### Runtime Data Area의 세부 구조
 ![image](https://user-images.githubusercontent.com/26040955/80940485-e033b380-8e1a-11ea-930d-773559635150.png)
@@ -67,3 +71,4 @@
 - [JVM GC와 메모리 튜닝 (조대협)](https://5dol.tistory.com/183)
 - [Why does the JVM full GC need to stop-the-world?](https://stackoverflow.com/questions/16695874/why-does-the-jvm-full-gc-need-to-stop-the-world)
 - [Garbage Collection explained for Android Developers (and other JVM Platforms)](https://android.jlelse.eu/garbage-collection-explained-for-android-developers-and-any-other-jvm-language-ac5896bc8875)
+- [Java - JIT 컴파일러](https://medium.com/@ahn428/java-jit-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC-c7d068e29f45)
