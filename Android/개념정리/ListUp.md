@@ -1,0 +1,7 @@
+- Retrofit
+- AsyncTask vs AsyncTaskLoader
+- LinearLayout vs RelativeLayout vs ConstraintLayout
+- Android DB 종류: SQLite, Room, SharedPreference
+- Android Project: AndroidManifest 역할, Gradle 역할, Menu
+- xml 뷰 불러오기: findviewbyid, ButterKnife, DataBinding
+- unit test, Espresso UI test
