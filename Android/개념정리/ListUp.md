@@ -13,3 +13,4 @@
 - https://blog.naver.com/PostView.nhn?blogId=csi468_&logNo=221465784013&from=search&redirect=Log&widgetTypeCall=true&directAccess=false
 - https://blog.naver.com/PostView.nhn?blogId=csi468_&logNo=221468182854&parentCategoryNo=&categoryNo=6&viewDate=&isShowPopularPosts=true&from=search
 - https://github.com/devetude/Android-Interview-QnA
+- https://www.notion.so/Java-73d227883d4c4c388884a9421aab9730
