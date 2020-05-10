@@ -71,6 +71,8 @@ public class helloworld {
 
 - 결론부터 이야기하면 StringBuffer를 사용하는 것이 String을 사용하는 것보다 메모리 상 더 좋다.
 - String은 Immutable하기에 +연산을 하면 지속적으로 객체를 생성하고, StringBuffer는 mutable 하기에 기존 객체에 +연산하게 되기 때문이다.
+- 참고로 String은 wrapper class가 아니다.
+    * 참고: [Can we call String as a wrapper class?](https://stackoverflow.com/questions/6594380/can-we-call-string-as-a-wrapper-class)
 
 ```java
 
