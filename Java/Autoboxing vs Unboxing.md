@@ -20,7 +20,7 @@
 
 int a = 2017;
 Integer b = a; //Autoboxing;
-Integer b = new Integer(a); //Autoboxing을 지원해주기 전에는 이런 식으로 변환
+Integer b = new Integer(a); //Autoboxing을 지원해주기 전에는 이런 식으로 변환 (deprecated)
 
 ```
 
