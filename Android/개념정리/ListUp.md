@@ -14,7 +14,7 @@
 - https://blog.naver.com/PostView.nhn?blogId=csi468_&logNo=221468182854&parentCategoryNo=&categoryNo=6&viewDate=&isShowPopularPosts=true&from=search
 - https://github.com/devetude/Android-Interview-QnA
 - https://www.notion.so/Java-73d227883d4c4c388884a9421aab9730
-
+- https://kimyounghoons.github.io/android/interview/android-interview/
 
 ### 질문 리스트
 - 아이템 100개 와 ViewHolder 1개를 가진 RecyclerView의 동작원리를 설명 해주세요.
