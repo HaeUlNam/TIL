@@ -9,8 +9,58 @@
 - MVC vs MVP vs MVVM
 - Json vs Gson vs XML
 
-### 질문 리스트
+### 질문 리스트(링크)
 - https://blog.naver.com/PostView.nhn?blogId=csi468_&logNo=221465784013&from=search&redirect=Log&widgetTypeCall=true&directAccess=false
 - https://blog.naver.com/PostView.nhn?blogId=csi468_&logNo=221468182854&parentCategoryNo=&categoryNo=6&viewDate=&isShowPopularPosts=true&from=search
 - https://github.com/devetude/Android-Interview-QnA
 - https://www.notion.so/Java-73d227883d4c4c388884a9421aab9730
+
+
+### 질문 리스트
+- 아이템 100개 와 ViewHolder 1개를 가진 RecyclerView의 동작원리를 설명 해주세요.
+- RecyclerView or ListView 의 Pagination 구현 방법을 설명 해주세요.
+- 네트워크 통신을 통해 이미지를 가져오는 뷰가 포함된 ListView 또는 RecyclerView에서 빠르게 스크롤 시 생길 수 있는 이슈가 무엇이고 어떻게 수정 및 최적화를 할 수 있을까요?
+- Parcel 과 Serializable의 차이는 무엇일까요?
+- 안드로이드 에서 Unit Test가 필요 한 이유는 무엇일까요?
+- 기존 프로젝트에서 “개발 서버를 바라보는 어플” 과 “프로덕션 서버를 바라보는 어플”을 나눠서 관리해야 한다고 했을 때 본인의 계획을 말씀 해주세요.
+- 인플레이션(inflation)이란 무엇인가요?
+- Intent를 통해 데이터 전달하는 과정에서 클래스 객체를 바로 전달하지 못하는 이유는 무엇이고 전달하기 위해서는 어떤 처리가 필요한가요?
+- 복수의 Fragment 간 데이터 전달 방법을 설명 해주세요.
+- Width가 1000px Height가 20000px인 이미지가 있고 해당 이미지를 보여주려고 했을 때 아래와 같은 에러가 떴다. 이를 이미지 라이브러리를 사용하지 않고 해결하는 방법에 대해 설명 해주세요.
+- 쓰레드간 통신방법
+- 메세지 핸들러에 대한 설명
+- Looper에 대한 설명
+- 백그라운드에서 UI 업데이트 하는 방법
+- http 통신이나 리소스 관리 등 시간 소요시 구현방법
+- context에 대한 설명
+- activity 생명주기에 대한 설명 
+- ANR
+- AsyncTask에 대해 설명
+- Paracel-Serializable 비교
+- 명시적 인텐트, 암시적 인덴트 설명 암시적 인덴트 예제
+- Intent Flag - FLAG_ACTIVITY_CLEAR_TOP, FLAG_ACTIVITY_SINGLE_TOP에 대한 설명
+- 데이터 저장방법 5가지(file, db, shared preference, property, network)
+- Data binding에 대해 설명
+- AIDL에 대한 설명
+- Async Task를 직접 구현한다면?(Thread -Handler)
+- Android Service와 Intent Serivce 차이
+- Content Provider와 Content Resolver차이
+- Fragment에 대한 설명
+- Android 3.0 미만에서 Fragment 구현 방법(support library, activity, fragment Manger차이)
+- Handler란
+- Rest API란
+- video application개발 할 때 생명주기
+- Android application -process에 대한 설명
+- service-activity간 연동 손코딩
+- Intent filter 설명
+- 해당 api를 지원하는 android min version은?
+- Doze모드
+- 안드로이드 메신저 어플리케이션에서 메세지가 10000개 이상인 화면을 구성할 때 있어 고려할 점
+- 특정 api에서 데이터를 받아 List형태로 보여주기 
+- 안드로이드 MAT설명
+- GCM설명
+- StartService, BindService설명
+- Content Provider 설명
+- 액티비티와 프레그먼트의 차이
+- 커스텀뷰
+- 채팅 기능 구현
