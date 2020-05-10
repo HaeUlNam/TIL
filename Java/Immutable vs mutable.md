@@ -79,7 +79,7 @@ public class helloworld {
 String s1 = "South Korea ";
 s1 += "Seoul"; //"South Korea Seoul"을 가진 새로운 객체 생성
 
-StringBuffer s2 = "South Korea";
+StringBuffer s2 = new StringBuffer("South Korea");
 s2 += "Seoul"; //기존에 객체에 덧붙이기
 
 ```
