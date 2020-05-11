@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/26040955/81520320-ebd52c00-937e-11ea-910e-e6000f2e1e3f.png)
 
 - Has a 관계는 포함 관계로서 전체와 부분을 나타내는 관계이다. UML로는 aggregation or composition 관계이다.
-- 아래 예시처럼 자동차가 바퀴를 가지고 있는 건 Has a 관계이다.
+- 아래 예시처럼 자동차가 바퀴를 가지고 있는 건 Has a 관계()이다.
 
 ![image](https://user-images.githubusercontent.com/26040955/81520419-2fc83100-937f-11ea-997f-e088a11d3b8b.png)
 
@@ -58,12 +58,14 @@ public class StackClient {
     System.out.println(st.peek());
   }
 
-출처: https://gmlwjd9405.github.io/2018/07/05/oop-features.html
+//출처: https://gmlwjd9405.github.io/2018/07/05/oop-features.html
 ```
 
-- 일반화: 
+- 일반화(상속): 두 클래스 사이에 is kind of 관계가 성립할 때 사용하는 것이다.
+ * 만약 is kind of 관계가 성립하지 않는데, 상속받게 되면 불필요한 것들도 물려받게 되어 문제이다.
 
-- 다형성
+- 다형성: 서로 다른 클래스의 객체가 같은 함수들에 대해 서로 다르게 동작하는 것.
+ * interface나 부모 클래스를 통해서 자식 클래스를 주입받았을 때, 각 자식 클래스마다 다르게 구현되었다면 다르게 동작하는 것.
 
 
 ### 출처
