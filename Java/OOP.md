@@ -71,3 +71,4 @@ public class StackClient {
 - [결합도(Coupling), 응집도(Cohesion)](https://lazineer.tistory.com/93)
 - [[Java] 07. Is Kind Of 관계, Has A 관계](https://dog-foot-story.tistory.com/34)
 - [[UML] Class Diagram 클래스 다이어그램](https://onecellboy.tistory.com/343)
+- [[C++] 상속 세번째, 상속의 조건 (is-a 와 has-a 그리고 포함)](https://pacs.tistory.com/entry/C-%EC%83%81%EC%86%8D-%EC%84%B8%EB%B2%88%EC%A7%B8-%EC%83%81%EC%86%8D%EC%9D%98-%EC%A1%B0%EA%B1%B4-is-a-%EC%99%80-has-a-%EA%B4%80%EA%B3%84)
