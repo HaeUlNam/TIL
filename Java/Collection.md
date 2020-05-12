@@ -4,7 +4,8 @@
 
 ### Collection 종류
 
-- Map 인터페이스: HashMap, TreeMap
+- Map 인터페이스: key, value를 하나로 묶어서 저장하는 것
+  * 종류: HashMap, TreeMap
   * HashMap은 해쉬 베이스로 충돌이 나는 경우 chaining을 사용하고, 일정 threshold를 넘어갈 경우 Red-black Tree를 이용해서 충돌 처리
   * 따라서 HashMap은 최선 O(1), 최악 (log n/m) (m은 bucket size)
   * TreeMap은 Red-black Tree 베이스로 저장하게 된다.
