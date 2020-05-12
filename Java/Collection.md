@@ -64,6 +64,11 @@
  map.compute(word, (k,v)->v == null ? 1: v+1) //atomic하기에 thread-safe하다.
  ```
 
+### 추가적인 고찰
+
+- 그냥 작은 프로그램에서는 thread-safe하게 코드 짜는 게 어렵지 않을 수 있는데, 프로그램이 커질 수록 굉장히 어려울 거 같다... 이 부분은 충분한 공부가 필요할 것 같다.
+- 시간 날 때 [자바 병렬 프로그래밍](http://www.yes24.com/Product/Goods/3015162)을 보고 병렬 프로그래밍에 대한 이해도를 높여야겠다. 
+
 ### 참고자료
 
 - [자바 컬렉션과 동기화(Java Collection Synchronization)](https://madplay.github.io/post/java-collection-synchronize)
