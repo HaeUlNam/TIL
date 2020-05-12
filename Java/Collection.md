@@ -31,13 +31,38 @@
 
 ### Fail-fast Iterator vs Fail-Safe Iterator
 
-- Fail-fast는 가능한 빨리 실패를 노출하고 작업을 중지하게 되며, 
+- Fail-fast는 가능한 빨리 실패를 노출하고 작업을 중지하게 되며, Fail-Safe는 장애 발생시 작업을 중단하지 않고 가능한 많은 실패를 피하려고 한다.
+
+- Fail-fast: Iterator의 remove() 메소드 이외의 코드로 기존 collection이 수정되면 fail-fast iteratiors는 예외 발생
+ * 따라서 collection에서 제거 기능을 이용하려면 iterator의 remove()를 사용해야 한다.
+ * ArrayList, HashMap 등과 같은 java.util 패키기의 collection에 대한 기본 반복자는 Fail-fast
+- Fail-safe: 실제 Collection의 복제본을 작성하고 반복합니다. 반복자가 작성된 후 수정이 발생해도 사본은 그대로 유지. 
+ * 단점1) iterator 동작 도중에 collection의 값이 변경되더라도 알 수 없다.
+ * 단점2) 시간과 메모리와 관련해서 사본을 작성하는 오버헤드
+ * ConcurrentHashMap, CopyOnWriteArrayList 등과 같은 java.util.concurrent 패키기의 collection에 있는 반복자들은 fail-safe하다.
+ * 위에서 설명하는 Enumeration도 Fail-safe에 해당.
 
 
+### HashMap vs ConcurrentHashMap
 
-
-
-
+- 둘 다 해싱을 기본으로 사용하는데, HashMap은 non thread-safe이고, ConcurrentHashMap은 thread-safe하다.
+- 그럼 multi-thread 환경에서 굳이 ConcurrentHashMap을 이용할 이유가 있을까? synchronized + HashMap을 사용하면 되는데?
+ * ConcurrentHashMap은 map을 16개의 파트로 나누고 update 동작이 있는 동안 해당 부분만 lock을 수행한다. 즉, 16개의 thread가 동시에 map에서 기능을 수행할 수 있는 것이다.
+ * 다만, ConcurrentHashMap을 잘 사용하려면 thread-safe한 코드를 짤 줄 알아야 한다. 원자성을 보장하도록...
+ 
+ ```java
+ ConcurrentHashMap<String,Long>map = new ConcurrentHashMap<>();
+ 
+ Long oldValue = map.get(word);
+ Long newValue = oldValue == nul ? 1 : oldValue + 1;
+ map.put(word, newValue); //thread-safe하지 않다.
+ ```
+ * 만약 위와 같이 짜면 thread-safe하지 않은 코드이다. 다른 스레드에서 동시에 같은 카운트를 업데이트하고 있을지도 모르기 때문이다.
+ 따라서 값을 안전하게 업데이트하려면 아래와 같은 원자적인 compute메서드를 사용해야 한다.
+ 
+ ```java
+ map.compute(word, (k,v)->v == null ? 1: v+1) //atomic하기에 thread-safe하다.
+ ```
 
 ### 참고자료
 
@@ -46,3 +71,5 @@
 - [Internal Working of TreeMap in Java](https://www.dineshonjava.com/internal-working-of-treemap-in-java/)
 - [자바 HashMap을 효과적으로 사용하는 방법](http://tech.javacafe.io/2018/12/03/HashMap/)
 - [Fail-Safe Iterator vs Fail-Fast Iterator](https://simuing.tistory.com/261)
+- [5 Difference Between Iterator And Enumeration With Example : Java Collections Question](https://javahungry.blogspot.com/2013/06/difference-between-iterator-and-enumeration-collections-java-interview-question-with-example.html)
+- [[Java]ConcurrentHashMap 사용하기](https://m.blog.naver.com/PostView.nhn?blogId=horajjan&logNo=220584946854&proxyReferer=https:%2F%2Fwww.google.com%2F)
