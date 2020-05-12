@@ -11,7 +11,17 @@
   * 따라서 최악 (logn)
   
 - List 인터페이스: ArrayList, LinkedList, Vector, Stack
-  * ArrayList와 Vector는 거의 동일하지만, not Thread safe 와 Thread safe하다는 특징으로 나뉜다.
+  * ArrayList와 Vector는 거의 동일하지만, not Thread safe(단일 스레드에서 더 빠름) 와 Thread safe하다는 특징으로 나뉜다.
+  * Vector는 size를 넓힐 경우 2배씩 늘어나게 되고, ArrayList는 50퍼센트씩 늘어나게 된다.
+  * ArrayList는 index를 통한 random access 가능하고 remove가 느리다.
+  * LinkedList는 add와 remove가 빠르지만, 찾는 것이 느리다.
+  
+### ArrayList와 LinkedList의 좋은 점만 가지는 경우 - Hashing
+
+- ArrayList의 빠른 random access와 LinkedList의 빠른 add와 remove 특성을 가지려면, 해싱을 결합하면 된다.
+- Java HashMap을 이용해서 key를 저장하고 value에 LinkedList Pointer를 가지고 있으면 find를 최선의 O(1)시간에 할 수 있다.
+
+
 
 ### 참고자료
 
