@@ -15,8 +15,59 @@
 - https://github.com/devetude/Android-Interview-QnA
 - https://www.notion.so/Java-73d227883d4c4c388884a9421aab9730
 - https://kimyounghoons.github.io/android/interview/android-interview/
+- https://android.jlelse.eu/android-interview-questions-cheat-sheet-96ea01c88def
 
-### 질문 리스트
+### 질문 리스트1
+- Http Request Code 에 대해 아는대로 설명해 보세요.
+- Lambda Function 과 High Order Function 에 대해 설명해보세요
+- 안드로이드 스튜디오의 Thread 에 대해 설명해보세요. Main Thread와 Worker Thread 등을 구분하는 이유와 Main Thread에서 반드시 동작해야하는 함수가 있는지도 설명해보세요
+- View Model을 사용하는 이유는 무엇인가요? Counter Animation을  사용하는 어플리케이션에서 실행 중에 화면을 돌려 Activity가 회전한다면 Counter 의 값이 Reset 될까요?
+- Android Activity Life Cycle 에 대해 설명해보세요.
+- onStart() 와 onResume() 함수가 구분되어 있는데 둘의 차이점은 무엇인가요?
+- Broadcast Receiver 를 사용할 때, Broadcast를 수신하는 기능 말고 Broadcast 를 송신할 수는 없을까요?
+- Content Provider를 이용해 구현해 본 앱이나 기능이 있으신가요?
+- Jetpack 에서 사용해본 기능은?
+- Firebase 중 사용해 본 기능은?
+- Custom View 를 사용해 본 적이 있는지?
+- git - Rebase, Merge 
+- MVC Pattern
+- RESTful API 에 대해 아시나요?
+- 네트워크 통신을 사용해본 적이 있는지? OkHttp3에 대해 알고있는가?
+- 안드로이드의 실행환경에 대해서 간단하게 설명하시오.
+- 안드로이드는 다른 플랫폼에 비해 어떤 장점이 있는가?
+- 안드로이드 프로젝트 구성요소에 대해서 설명하시오.
+- 안드로이드 매니페스트(android manifest) 파일에 대해서 설명하시오.
+- 인플레이션(inflation)이란 무엇인가?
+- 액티비티간 데이터 전달에서 임의의 클래스 객체를 바로 전달하지 못하는 이유는 무엇이고 전달하기 위해서는 어떤 처리가 필요한가?
+- 부모 액티비티에서 자식 액티비티의 결과 값을 받아오기 위해 어떻게 해야하는가?
+- 스타일(style), 테마(theme)에 대해서 설명하시오.
+- 뷰 홀더 패턴(view holder pattern)에 대해서 설명하시오.
+- 액티비티의 4가지 launchMode에 대해서 비교 설명하시오.
+- 태스크(task)란 무엇인가?
+- abstract 와 interface 의 차이 와 자바는 왜 다중상속이 안되는 것인가?
+- 쓰레드풀 설명
+- 코틀린 사용의 장점
+- Android KTX 란 무엇인가?
+- mvp 패턴과 mvvm 패턴의 차이
+- LiveData 는 인터럽트방식인가 폴링방식인가
+- 옵저버패턴, 어댑터패턴 설명
+- ViewModel 상속받은 클래스에서 ViewModel 상속을 받지 않는다면 달라지는점은?
+- FLAG_ACTIVITY_CLEAR_TOP 과 FLAG_ACTIVITY_SINGLE_TOP 차이
+- Dangerous permission
+- onSaveInstanceState 와 onRestoreInstanceState
+- Difference between Service & Intent Service
+- What is a Job Scheduling?
+- AsyncTask로 발생할 수 있는 문제는 뭐고, 이를 회피할 수 있는 방법은?
+- What is View Group? How are they different from Views?
+- What is the difference between a regular .png and a nine-patch image?
+- How to load bitmap to memory?
+- What is an Application Not Responding (ANR) error, and how can you prevent them from occurring in an app?
+
+....
+
+
+
+### 질문 리스트2
 - 아이템 100개 와 ViewHolder 1개를 가진 RecyclerView의 동작원리를 설명 해주세요.
 - RecyclerView or ListView 의 Pagination 구현 방법을 설명 해주세요.
 - 네트워크 통신을 통해 이미지를 가져오는 뷰가 포함된 ListView 또는 RecyclerView에서 빠르게 스크롤 시 생길 수 있는 이슈가 무엇이고 어떻게 수정 및 최적화를 할 수 있을까요?
