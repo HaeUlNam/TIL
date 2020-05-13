@@ -46,7 +46,7 @@
 - 정규화(1차 2차 3차 BCNF)
 
 ## DesignPattern
-- SOLID
+- [SOLID](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/SOLID.md)
 - Singleton
 - Strategy
 - Template
