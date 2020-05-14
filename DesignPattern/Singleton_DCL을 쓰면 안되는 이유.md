@@ -12,6 +12,10 @@
   * 그렇게 되면 Thread B는 바로 객체를 사용하게 되는데, 이 때 Thread A에서 생성자가 호출되기 전이기에 제대로 초기화되지 않은 객체를 사용하게 되는 위험성이 존재한다. 
 ![image](https://user-images.githubusercontent.com/26040955/81952766-d7748600-9641-11ea-9ecd-233a7df994dd.png)
 
+
+- 하지만 DCL을 쓸 수 있는 방법이 있긴하다... volatile 키워드를 사용하면 가능하다.. 해당 변수를 참조하는 앞 뒤로 reodering을 막아주기 때문이다.
+- 그렇지만 이 방법보다 holder방법이 좋다. 그거 쓰자.
+
 ### 참고자료
 
 - [Double-Checked Locking Pattern을 쓰지 말아야 하는 이유2](https://blog.naver.com/jjoommnn/130036640859)
