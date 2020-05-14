@@ -60,7 +60,7 @@ public class ExampleClass {
 
 - Thread Safe + Lazy init + Double-checking Lock: 위보다 성능을 더 낮출 수 있었다.
   * 하지만 [Double-checking Lock](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Singleton_DCL%EC%9D%84%20%EC%93%B0%EB%A9%B4%20%EC%95%88%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)은 사용하면 안되는 방법 중에 하나이다. 그 이유는 링크를 타고 들어가면 된다.
-  * 만약 사용할 거면 volatile 키워드를 사용해서 reodering을 하지 않도록 한다.
+  * 만약 사용할 거면 volatile 키워드를 사용해서 JVM reodering을 하지 않도록 한다.
 ```java
 public class ExampleClass {
     //Instance
