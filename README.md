@@ -81,7 +81,7 @@
 - Reflection
 - Java8 Stream
 - 람다
-- Object level lock vs Class level lock in Java
+- [Object level lock vs Class level lock](https://github.com/HaeUlNam/TIL/blob/master/Java/Object%20Level%20Lock%20vs%20Class%20Level%20Lock.md)
 
 ## Network
 - OSI 7계층
