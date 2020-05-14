@@ -104,6 +104,7 @@ public class ExampleClass {
 
 ### 참고자료
 - [Java에서 싱글톤(Singleton) 패턴을 사용하는 이유와 주의할 점](https://elfinlas.github.io/2019/09/23/java-singleton/)
-- [](https://jongyoungcha.tistory.com/entry/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90)
+- [싱글톤(Singleton) 패턴의 장점과 단점에 대한 고찰](https://jongyoungcha.tistory.com/entry/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90)
 - [Multi Thread 환경에서의 올바른 Singleton](https://medium.com/@joongwon/multi-thread-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%98%AC%EB%B0%94%EB%A5%B8-singleton-578d9511fd42)
 - [Does the Java ClassLoader load inner classes?](https://stackoverflow.com/questions/24538509/does-the-java-classloader-load-inner-classes)
+- [Fastest Thread-safe Singleton in Java](http://literatejava.com/jvm/fastest-threadsafe-singleton-jvm/)
