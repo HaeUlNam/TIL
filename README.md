@@ -47,7 +47,8 @@
 
 ## DesignPattern
 - [SOLID](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/SOLID.md)
-- Singleton
+- [Singleton](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Singleton.md)
+- Singleton에서 DCL(Double Checking Lock)을 사용하면 안되는 이유
 - Strategy
 - Template
 - Adapter
