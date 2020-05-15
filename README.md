@@ -43,8 +43,10 @@
 
 ## DataBase
 - Transcation
-- SQL injection
 - 정규화(1차 2차 3차 BCNF)
+- SQL injection
+- SQL 
+
 
 ## DesignPattern
 - [SOLID](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/SOLID.md)
