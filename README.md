@@ -89,7 +89,8 @@
 - [REST API](https://github.com/HaeUlNam/TIL/blob/master/Network/Rest%20API.md)
 - [URI vs URL vs URN](https://github.com/HaeUlNam/TIL/blob/master/Network/URI%20vs%20URL%20vs%20URN.md)
 - [TCP 3 handshake, 4 handshake](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%203%20handshake%2C%204%20handshake.md)
-- HTTP vs HTTPS
+- [HTTP](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP.md)
+- [HTTPS](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTPS.md)
 - TCP vs UDP
 - 소켓(Socket)이란
 - CORS란
