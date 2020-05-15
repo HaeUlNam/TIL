@@ -76,7 +76,7 @@
 - [over-riding vs over-loading](https://github.com/HaeUlNam/TIL/blob/master/Java/over-riding%20vs%20over-loading.md)
 - [static 키워드](https://github.com/HaeUlNam/TIL/blob/master/Java/static%20%ED%82%A4%EC%9B%8C%EB%93%9C.md)
 - [접근 제한자](https://github.com/HaeUlNam/TIL/blob/master/Java/Access%20Modifier.md)
-- 명시적 형변환 vs 묵시적 형변환
+- [Access Modifier](https://github.com/HaeUlNam/TIL/blob/master/Java/Access%20Modifier.md)
 - final vs finally vs finalize
 - Annotation
 - Reflection
