@@ -94,7 +94,7 @@
 - [HTTP](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP.md)
 - [HTTPS](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTPS.md)
 - [TCP vs UDP](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%20vs%20UDP.md)
-- 소켓(Socket)이란
+- HTTP vs Socket
 
 ## OS
 - Process vs Thread
