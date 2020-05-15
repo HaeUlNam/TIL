@@ -5,11 +5,11 @@
 
 ### REST API 구성
 1) 자원: URI
-  * URI vs URL
+   * URI vs URL
 2) 행위: HTTP METHOD
-  * HTTP METHOD는 GET,POST,PUT,DELTE 등의 4개 메소드 존재
+   * HTTP METHOD는 GET,POST,PUT,DELTE 등의 4개 메소드 존재
 3) Representation of Resource
-  * 자원(URI)의 표현방법: JSON, XML, Text...
+   * 자원(URI)의 표현방법: JSON, XML, Text...
 
 ### REST API 특징 
 - Uniform Interface(일관된 인터페이스): Resource(URI)에 대한 요청이 통일되고 한정적으로 수행하는 아키텍처 스타일을 뜻함. 이 덕분에 플랫폼에 종속되지 않고, HTTP를 사용하는 어느 플랫폼이든 REST API를 사용 가능
