@@ -87,7 +87,7 @@
 ## Network
 - OSI 7계층
 - REST API
-- TCP 3 handshake, 4 handshake
+- [TCP 3 handshake, 4 handshake](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%203%20handshake%2C%204%20handshake.md)
 - HTTP vs HTTPS
 - TCP vs UDP
 - 소켓(Socket)이란
