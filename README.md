@@ -93,8 +93,7 @@
 - [TCP 3 handshake, 4 handshake](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%203%20handshake%2C%204%20handshake.md)
 - [HTTP](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP.md)
 - [HTTPS](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTPS.md)
-- TCP
-- UDP
+- [TCP vs UDP](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%20vs%20UDP.md)
 - 소켓(Socket)이란
 
 ## OS
