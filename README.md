@@ -106,3 +106,6 @@
 
 ## Git
 - Rebase, Merge
+
+## Software Engineering
+- Waterfall vs agile
