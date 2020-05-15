@@ -89,6 +89,7 @@
 - REST API
 - TCP 3 handshake, 4 handshake
 - HTTP vs HTTPS
+- TCP vs UDP
 - 소켓(Socket)이란
 - CORS란
 
