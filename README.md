@@ -75,8 +75,8 @@
 - [object class](https://github.com/HaeUlNam/TIL/blob/master/Java/object%20class.md)
 - [over-riding vs over-loading](https://github.com/HaeUlNam/TIL/blob/master/Java/over-riding%20vs%20over-loading.md)
 - [static 키워드](https://github.com/HaeUlNam/TIL/blob/master/Java/static%20%ED%82%A4%EC%9B%8C%EB%93%9C.md)
-- [접근 제한자](https://github.com/HaeUlNam/TIL/blob/master/Java/Access%20Modifier.md)
 - [Access Modifier](https://github.com/HaeUlNam/TIL/blob/master/Java/Access%20Modifier.md)
+- [Type Casting](https://github.com/HaeUlNam/TIL/blob/master/Java/Type%20Casting.md)
 - final vs finally vs finalize
 - Annotation
 - Reflection
