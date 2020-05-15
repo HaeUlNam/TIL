@@ -94,7 +94,7 @@
 - [HTTP](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP.md)
 - [HTTPS](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTPS.md)
 - [TCP vs UDP](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%20vs%20UDP.md)
-- HTTP vs Socket
+- [HTTP vs Socket](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP%20vs%20Socket.md)
 
 ## OS
 - Process vs Thread
