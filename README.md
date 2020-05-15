@@ -12,6 +12,7 @@
 - [Sorting](https://github.com/HaeUlNam/TIL/blob/master/Algorithm/Sorting(%EC%A0%95%EB%A0%AC).md)
 - [TopologySort](https://github.com/HaeUlNam/TIL/blob/master/Algorithm/TopologySort(%EC%9C%84%EC%83%81%EC%A0%95%EB%A0%AC).md)
 - Union-Find
+- Binary Search, Parametric Search
 - Hashing
 - Red-Black Tree
 
@@ -90,15 +91,17 @@
 - HTTP vs HTTPS
 - 소켓(Socket)이란
 - CORS란
-- 
-
 
 ## OS
 - Process vs Thread
 - Race Condition(Semaphore, Mutex, Monitor)
+- DeadLock
 - User mode, Kernel mode, System Call
 - Locality of reference
 - 동기 vs 비동기
 - Paging
 - Process 스케줄링
 - Disk 스케줄링
+
+## Git
+- Rebase, Merge
