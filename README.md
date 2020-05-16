@@ -87,7 +87,7 @@
 - [Object level lock vs Class level lock](https://github.com/HaeUlNam/TIL/blob/master/Java/Object%20Level%20Lock%20vs%20Class%20Level%20Lock.md)
 
 ## Network
-- OSI 7계층
+- [OSI 7계층](https://github.com/HaeUlNam/TIL/blob/master/Network/OSI%207%20Layer.md)
 - [REST API](https://github.com/HaeUlNam/TIL/blob/master/Network/Rest%20API.md)
 - [URI vs URL vs URN](https://github.com/HaeUlNam/TIL/blob/master/Network/URI%20vs%20URL%20vs%20URN.md)
 - [TCP 3 handshake, 4 handshake](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%203%20handshake%2C%204%20handshake.md)
