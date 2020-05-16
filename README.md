@@ -103,7 +103,7 @@
 - [DeadLock](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/DeadLock.md)
 - [Dual mode](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Dual%20mode.md)
 - [Locality of reference](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Locality%20of%20reference.md)
-- 동기 vs 비동기
+- [동기 vs 비동기](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/%EB%8F%99%EA%B8%B0%20vs%20%EB%B9%84%EB%8F%99%EA%B8%B0.md)
 - Paging
 - Process 스케줄링
 - Disk 스케줄링
