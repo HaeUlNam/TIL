@@ -97,11 +97,12 @@
 - [HTTP vs Socket](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP%20vs%20Socket.md)
 
 ## OS
-- Process vs Thread
-- Race Condition(Semaphore, Mutex, Monitor)
-- DeadLock
-- User mode, Kernel mode, System Call
-- Locality of reference
+- [Process](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Process.md)
+- [Thread](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Thread.md)
+- [Race Condition(Semaphore, Mutex, Monitor)](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Race%20Condition.md)
+- [DeadLock](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/DeadLock.md)
+- [Dual mode](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Dual%20mode.md)
+- [Locality of reference](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Locality%20of%20reference.md)
 - 동기 vs 비동기
 - Paging
 - Process 스케줄링
