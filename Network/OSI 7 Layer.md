@@ -19,7 +19,9 @@
   * 통신 단위: 프레임
 - Network Layer: 다른 네트워크와 통신하기 위한 경로 설정, 논리 주소 결정, 패킷 전달
   * 대표적인 장비: 라우터
+  * 통신 단위: 패킷
 - Transport Layer: 에러 복구를 위해 패킷을 재전송하거나 Flow를 조절해서 데이터가 정상적으로 전송될 수 있도록 하는 역할
+  * end to end
 - Session Layer: 세션 체결, 통신 방식 결정
 - Presentation Layer: 문자 코드, 압축, 암호화 등의 데이터를 변환
 - Application Layer: Application Service를 제공
