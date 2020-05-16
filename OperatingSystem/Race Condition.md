@@ -30,3 +30,4 @@
 - [What is a race condition?](https://stackoverflow.com/questions/34510/what-is-a-race-condition)
 - [Difference Between Semaphore and Mutex](https://techdifferences.com/difference-between-semaphore-and-mutex.html)
 - [Monitor vs Mutex](https://stackoverflow.com/questions/38159668/monitor-vs-mutex)
+- [Are there any advantages to using a binary semaphore instead of a mutex for mutual exclusion in a critical section of a queue?](https://stackoverflow.com/questions/40291858/are-there-any-advantages-to-using-a-binary-semaphore-instead-of-a-mutex-for-mutu)
