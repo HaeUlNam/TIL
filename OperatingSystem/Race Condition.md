@@ -5,12 +5,13 @@
 - race condition을 해결할 수 있는 방법으로 Semaphore, Mutex, Monitor가 있다.
   * Mutex와 Monitor는 상호 배제를 함으로써 임계 구역에 하나의 쓰레드만 들어갈 수 있다.
   * Monitor는 Java에서만 제공되는 매커니즘
-  * Semaphore는 binary or counting 가능. 생산자- 소비자 문제에 사용될 수 있다.
-
+  * Semaphore는 binary or counting 가능. 
+  
 ### Semaphore vs Mutex
 - Semaphore는 signal을 주는 매커니즘이다. acquire(), release() 신호를 통해 자원을 획득하고, 내보낸다.
   * critical section에 들어가는 integer를 마음대로 정할 수 있다. binary semaphore는 mutex와 비슷하다고 헷갈리기 쉽지만.. Mutex와 Semaphore는 엄연히 Object lock/ Singalling 이라는 서로 다른 매커니즘을 가지고 있기에, 다르다.
-- Mutex는 object 소유해서 lock을 거는 매커니즘.
+- Mutex는 object 소유해서 lock을 거는 매커니즘. 외부에서 lock을 푸는 것이 불가능. Semaphore는 외부에서 signal을 통해 count++ 가능하다.
+- 따라서 완전 안전하게 binary locking을 하려면 Mutex가 좋은 선택일 듯하다.
 
 ### Mutex vs Monitor
 - Mutex는 다른 프로세스 간에 동기화를 위해 사용. 
