@@ -36,6 +36,13 @@
 ![image](https://user-images.githubusercontent.com/26040955/80940485-e033b380-8e1a-11ea-930d-773559635150.png)
 
 - Method Area: 클래스 이름, 타입 등의 정보랑 <b>static 변수</b>, <b>constant pool</b>, <b>final class 변수</b> 등이 생성되는 영역이다.
+  * Java 7까지는 해당 영역이 PermGen이라고 불린다. 자바는 클래스를 로드할 때에 미리 모든 정보를 로드하는 것이 아니라 런타임에 로드하기 때문에 특정 클래스가 PermGen영역에 없을 시 해당 클래스 정보를 로드하고, 이를 활용하여 객체를 생성하며 Heap에 저장
+  * Java 8에서는 PermGen이 사라지고, static Object나 변수들은 Heap으로 이동해서 최대한 GC에 포함되게 된다. 또한 나머지 영역은 Metaspace라는 이름으로 대체되어 Native Memory에 저장된다.
+  * PermGen -> Metaspace
+    * 이유1: static object가 gc에 대상이 되지 못해서
+    * 이유2: meta 정보(class 정보)들의 급격한 증가
+    * 결과: static object는 최대한 gc의 대상이 될 수 있게 되었고, metaspace가 native memory 영역으로 변경됨으로서 원하는 만큼 메모리를 늘릴 수 있다.
+  
 - Heap Area: new 키워드로 생성된 객체나 배열이 저장. GC가 참조되지 않은 메모리를 확인하고 제거하는 영역
 - Stack Area: 지역 변수, 파라미터, 리턴 값 등이 저장되는 영역
   * Person p = new Person();이라는 코드를 작성했을 때, p라는 변수는 stack에 저장되며 객체의 주소값을 가지고 있고 new Person() 객체는 Heap 영역에 저장된다.
@@ -72,3 +79,4 @@
 - [Why does the JVM full GC need to stop-the-world?](https://stackoverflow.com/questions/16695874/why-does-the-jvm-full-gc-need-to-stop-the-world)
 - [Garbage Collection explained for Android Developers (and other JVM Platforms)](https://android.jlelse.eu/garbage-collection-explained-for-android-developers-and-any-other-jvm-language-ac5896bc8875)
 - [Java - JIT 컴파일러](https://medium.com/@ahn428/java-jit-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC-c7d068e29f45)
+- [JVM memory 와 GC 종류](https://www.slipp.net/wiki/pages/viewpage.action?pageId=26641949)
