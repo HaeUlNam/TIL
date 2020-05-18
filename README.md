@@ -95,7 +95,7 @@
 - [HTTPS](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTPS.md)
 - [TCP vs UDP](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%20vs%20UDP.md)
 - [HTTP vs Socket](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP%20vs%20Socket.md)
-- subnet mask
+- 나머지 keyword 정리
 
 ## OS
 - [Process](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Process.md)
