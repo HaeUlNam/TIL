@@ -23,7 +23,7 @@
 - [View](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/View.md)
 - [Android 4대 Component](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/Android%204%20Component.md)
 - [Android 직렬화](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/%EC%A7%81%EB%A0%AC%ED%99%94.md)
-- Intent
+- [Intent](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/Intent.md)
 - Activity vs Fragment
 - ListView vs RecylerView
 - Retrofit vs Volley vs Okhttp3
