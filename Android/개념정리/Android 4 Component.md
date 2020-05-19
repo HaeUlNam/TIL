@@ -27,7 +27,7 @@
 ## ContentProvider
 
 - ContentProvider는 공유된 앱 데이터 집합을 관리합니다. 예를 들어, Android 시스템은 사용자의 연락처 정보를 관리하는 contentprovider를 제공합니다. 따라서 적절한 권한을 가진 앱이라면 어떤 것이든 정보를 읽고 쓸 수 있다.
-
+ * 이미지 예시: [MVVM 패턴과 Paging으로 수퍼 빠른 이미지 피커 만들기 – 찰스](https://www.charlezz.com/?p=44145#comment-336)
 
 
 ### 참고자료
