@@ -28,7 +28,6 @@
 - ListView vs RecylerView
 - ANR, Overdraw
 - Activity vs Fragment
-
 - Retrofit vs Volley vs Okhttp3
 - AsyncTask vs AsyncTaskLoader
 - LinearLayout vs RelativeLayout vs ConstraintLayout
