@@ -87,7 +87,9 @@
 - Java8 Stream
 - 람다
 - Java swap
+- 다중상속
 - [Object level lock vs Class level lock](https://github.com/HaeUlNam/TIL/blob/master/Java/Object%20Level%20Lock%20vs%20Class%20Level%20Lock.md)
+
 
 ## Network
 - [OSI 7계층](https://github.com/HaeUlNam/TIL/blob/master/Network/OSI%207%20Layer.md)
