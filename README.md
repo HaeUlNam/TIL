@@ -32,7 +32,7 @@
 - AsyncTask vs AsyncTaskLoader
 - LinearLayout vs RelativeLayout vs ConstraintLayout
 - Android Sensor
-- Json vs Gson vs XML
+- [Json vs XML](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/JSON%20vs%20XML.md)
 - findviewbyid vs ButterKnife vs DataBinding
 - Android Project 구조: AndroidManifest, Gradle, Menu..
 - Android DB 종류: SQLite, Room, SharedPreference
