@@ -18,11 +18,33 @@
 
 - 시스템 범위의 브로드캐스트 알림에 응답하는 구성 요소를 말합니다. 대다수의 브로드캐스는 시스템에서 시작하는데, 화면 꺼짐/배터리 잔량 부족/ 사진 캡쳐 등의 브로드 캐스트가 있습니다. 
 - App도 브로드캐스트를 통해 다른 여러 앱에게 알리는 역할을 하게 된다.
+ * 정적 BroadCastReceiver: AndroidManifest.xml에 고정해서 리시버를 등록하고 받는다.
+ * 동적 BroadCastReceiver: 동적으로 리서버를 할당하고 해제한다. 따라서 등록되는 component의 Lifecycle이 끝나면 (unregisterReceiver()가 호출되면) 더 이상 수신할 수 없다.
+ 
+### 동적 Receiver 장점
+- 시스템에 큰 부하를 주지 않는 점
+- 다른 Component 내에 소스가 존재한다는 것: 해당 component로부터 쉽지 접근 가능
+
+### 정적 Receiver 장점
+- 동적 Receiver는 특정 Activit나 Service가 구동 중에만 의미 있을 때 사용하지만, 정적은 구동 중이 아닐 때도 Receiver가 동작한다.
+
+### Receiver에서는 간단한 작업만 해야 하는 이유
+- 아래 그림과 같이 ActivityManager가 10초를 초과한 Receiver에 대해서는 ANR을 발생시킨다.
+- 그럼 속한 component도 같이 죽는다.
+
+![image](https://user-images.githubusercontent.com/26040955/82398679-65130400-9a8e-11ea-850f-5ba27c2b98bc.png)
+
 
 ## Service
 
-- 백그라운드에서 실행되는 구성 요소로, 오랫동안 실행되는 작업을 수행하거나 원격 프로세를 위한 작업을 수행하는 것. Service는 UI를 가지고 있지 않으며, 음악 재생처럼 오랜 시간동안 실행되기 위해 존재하는 component.
+- 백그라운드에서 실행되는 구성 요소로 오랫동안 실행되는 작업을 수행할 때 사용. Service는 UI를 가지고 있지 않으며, 음악 재생처럼 오랜 시간동안 실행되기 위해 존재하는 component.
+ * Forground Service: 알림을 사용하며 사용자에게 잘 보이는 몇몇 작업 수행. ex) 음악 재생
+ * Background Service
+ * Bind Service: Client-Server 인터페이스를 제공하여 구성 요소가 서비스와 상호작용하도록 함. 바인딩이 해제되면 서비스는 소멸.
 
+### Service와 Activity 통신
+- BroadCastReceiver 사용
+- Bind Service 사용
 
 ## ContentProvider
 
