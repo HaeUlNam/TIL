@@ -100,6 +100,8 @@
 - [HTTPS](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTPS.md)
 - [TCP vs UDP](https://github.com/HaeUlNam/TIL/blob/master/Network/TCP%20vs%20UDP.md)
 - [HTTP vs Socket](https://github.com/HaeUlNam/TIL/blob/master/Network/HTTP%20vs%20Socket.md)
+- [네트워크에서 사용하는 두 가지 주소(IP, MAC)](https://github.com/HaeUlNam/TIL/blob/master/Network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%97%90%EC%84%9C%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%91%90%20%EA%B0%80%EC%A7%80%20%EC%A3%BC%EC%86%8C(IP,%20MAC).md)
+- NAT(네트워크 주소 변환)
 - 나머지 keyword 정리
 
 ## OS
