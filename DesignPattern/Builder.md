@@ -17,3 +17,4 @@
 ### 참고 자료
 - [안드로이드 개념 및 예제 - AlertDialog](https://webnautes.tistory.com/1094)
 - [정원희님 - 좋은 코드를 고민하는 주니어 개발자들을 위한 안드로이드 디자인 패턴](https://www.slideshare.net/ssuser5fffa9/ss-82375716)
+- [Achieving Immutability with Builder Design Pattern](https://dzone.com/articles/immutability-with-builder-design-pattern)
