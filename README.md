@@ -110,6 +110,7 @@
 - [Dual mode](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Dual%20mode.md)
 - [Locality of reference](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Locality%20of%20reference.md)
 - [동기 vs 비동기](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/%EB%8F%99%EA%B8%B0%20vs%20%EB%B9%84%EB%8F%99%EA%B8%B0.md)
+- [외부 단편화 vs 내부 단편화](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/%EC%99%B8%EB%B6%80%EB%8B%A8%ED%8E%B8%ED%99%94%20vs%20%EB%82%B4%EB%B6%80%EB%8B%A8%ED%8E%B8%ED%99%94.md)
 - Paging
 - Process 스케줄링
 - Disk 스케줄링
@@ -119,3 +120,6 @@
 
 ## Software Engineering
 - Waterfall vs agile
+
+## ETC
+- [Native App vs Hybrid App](https://github.com/HaeUlNam/TIL/blob/master/ETC/Native%20App%20vs%20Hybrid%20App.md)
