@@ -18,8 +18,8 @@
 - Subnet mask란?: IP 주소에서 네트워크 주소와 Host 주소를 나누어 주는 역할을 하게 된다.
 - Subnet mask 필요성: 각 상황에 따라 네트워크 주소와 Host 주소 할당을 변경할 필요성이 있어 나오게 되었다.
 - Subnet mask 목적: IP 주소와 AND 연산을 해서 네트워크 주소를 걸러내려는 것
-- 예시
-  ![image](https://user-images.githubusercontent.com/26040955/82550560-b1973600-9b99-11ea-8ecc-cecc6f813b78.png)<br>
+- 예시<br>
+  ![image](https://user-images.githubusercontent.com/26040955/82550560-b1973600-9b99-11ea-8ecc-cecc6f813b78.png)
   * 클래스 A를 예로 들었을 때 클래스 A의 IP가 116.81.97.8일 경우, subnet mask가 255.0.0.0이기에 두 개를 AND연산하면 나오는 결과인 Network ID는 
   116.0.0.0입니다.
   <img width="423" alt="스크린샷 2020-05-21 오후 7 34 04" src="https://user-images.githubusercontent.com/26040955/82550768-089d0b00-9b9a-11ea-8a50-a11b30657679.png">
