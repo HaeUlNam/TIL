@@ -44,6 +44,7 @@
 
 
 ## DataBase
+- DB key 종류
 - Transcation
 - 정규화(1차 2차 3차 BCNF)
 - SQL injection
@@ -52,6 +53,7 @@
 
 ## DesignPattern
 - [SOLID](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/SOLID.md)
+- DIP(Dependency Inversion Principle) vs DI(Dependency Injection)
 - [Singleton](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Singleton.md)
 - [Singleton에서 DCL(Double Checking Lock)을 사용하면 안되는 이유](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Singleton_DCL%EC%9D%84%20%EC%93%B0%EB%A9%B4%20%EC%95%88%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
 - Strategy
@@ -127,3 +129,4 @@
 
 ## ETC
 - [Native App vs Hybrid App](https://github.com/HaeUlNam/TIL/blob/master/ETC/Native%20App%20vs%20Hybrid%20App.md)
+- Android vs Ios
