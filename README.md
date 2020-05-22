@@ -132,3 +132,4 @@
 ## ETC
 - [Native App vs Hybrid App](https://github.com/HaeUlNam/TIL/blob/master/ETC/Native%20App%20vs%20Hybrid%20App.md)
 - Android vs Ios
+- 웹브라우저를 통해 서버에 이미지를 요청해서 사용자에게 보여주기까지 과정
