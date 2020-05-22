@@ -76,6 +76,12 @@ class Programmer {
 }
 ```
 
+```java
+//DI
+public Programmer(Coffee coffee) {
+   this.coffee = coffee;
+}
+```
 
 
 ### 참고자료
