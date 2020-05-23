@@ -60,8 +60,8 @@
 - [Singleton에서 DCL(Double Checking Lock)을 사용하면 안되는 이유](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Singleton_DCL%EC%9D%84%20%EC%93%B0%EB%A9%B4%20%EC%95%88%EB%90%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
 - Strategy
 - Template
-- Adapter
-- Builder
+- [Adapter](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Adapter.md)
+- [Builder](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/Builder.md)
 - Composite
 - Observer
 
