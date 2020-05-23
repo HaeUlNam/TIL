@@ -52,7 +52,7 @@
 
 
 ## DesignPattern
-- UML_class diagram
+- [UML_class diagram](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/UML_class%20diagram.md)
 - [SOLID](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/SOLID.md)
 - [DIP(Dependency Inversion Principle) vs DI(Dependency Injection)](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/DIP(Dependency%20Inversion%20Principle)%20vs%20DI(Dependency%20Injection).md)
 - [IOC(Inversion Of Control)](https://github.com/HaeUlNam/TIL/blob/master/DesignPattern/IOC(Inversion%20Of%20Control).md)
