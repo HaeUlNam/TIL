@@ -45,7 +45,8 @@
 
 ## DataBase
 - DB key 종류
-- Transcation
+- [Transcation](https://github.com/HaeUlNam/TIL/blob/master/DataBase/Transaction.md)
+- Transaction Isolation Level
 - 정규화(1차 2차 3차 BCNF)
 - SQL injection
 - SQL 
