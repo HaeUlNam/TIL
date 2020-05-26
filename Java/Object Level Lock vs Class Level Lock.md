@@ -1,5 +1,5 @@
 ### Object Level Lock
-- Object Level lock은 instance 수준의 lock. 즉, 같은 instance가 재진입하는 것을 막는 용도.
+- Object Level lock은 instance 수준의 lock.
 - 하나의 class에 count 변수를 ++하는 것 같은 경우. object lock으로 원자성을 보장할 수 있다.
 - non-static, non-static code block을 thread-safe하게 가능.
 ```java
