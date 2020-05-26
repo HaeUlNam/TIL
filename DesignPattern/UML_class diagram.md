@@ -130,7 +130,7 @@ public class Student{
   * 세탁기는 is a kind of 가전 제품
   * TV is a kind of 가전 제품
   * 식기세척기 is a kind of 가전 제품
-  <br>
+  
   ![스크린샷 2020-05-23 오후 11 04 59](https://user-images.githubusercontent.com/26040955/82732694-d500e300-9d49-11ea-9975-474db5c76f10.png)
 
 - 클래스에서 추상 메서드는 이탤릭체로 써서 구분하거나 스테레오 타입으로 표시한다.
