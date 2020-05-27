@@ -50,7 +50,7 @@
 - [Transaction Isolation Level](https://github.com/HaeUlNam/TIL/blob/master/DataBase/Transaction%20Isolation%20Level.md)
 - 정규화(1차 2차 3차 BCNF)
 - SQL injection
-- SQL 
+- [SQL](https://github.com/HaeUlNam/TIL/blob/master/DataBase/SQL.md)
 
 
 ## DesignPattern
