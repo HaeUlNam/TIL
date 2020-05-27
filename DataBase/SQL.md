@@ -45,5 +45,15 @@ GROUP BY HOUR(DATETIME) # 시간단위로 grouping, 1 day 기준으로 하려면
 
 - 참고: https://stackoverflow.com/questions/14845981/datetime-group-by-date-and-hour/14846088
 
+### CASE문 
+
+```sql
+CASE WHEN 조건
+THEN 참일때
+ELSE 아닐때
+END AS column 상위에 적는 것
+```
+
+
 ### 참고
 - [[oracle] 상위 n개 데이터만 뽑고 싶은 경우](http://blog.naver.com/PostView.nhn?blogId=nomadgee&logNo=220854618303)
