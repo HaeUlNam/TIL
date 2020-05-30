@@ -11,7 +11,8 @@
   * Udacity의 모든 Android 프로그램은 Google 개발자들이 설계하고 관리하기에 듣기 좋다.
 - [아키텍처를 알아야 앱 개발이 보인다](https://ridibooks.com/books/3780000073)
   * 언어는 Java
-- 커니의 코틀린
+- 커니의 코틀린 책
+- [찰스의 안드로이드](https://www.charlezz.com/)
 
 ## Java
 - Effective Java
