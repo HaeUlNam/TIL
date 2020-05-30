@@ -20,6 +20,11 @@
 ## Kotlin
 - Kotlin in action
 
+## Git
+- [Pro Git](https://git-scm.com/book/ko/v2)
+- [생활코딩-지옥에서 온 Git](https://opentutorials.org/course/2708)
+- [Udacity-Git](https://www.udacity.com/course/version-control-with-git--ud123)
+
 ## 알고리즘
 - Leetcode
 - Hackerrank
