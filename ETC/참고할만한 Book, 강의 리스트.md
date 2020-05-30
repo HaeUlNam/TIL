@@ -9,10 +9,8 @@
   * 돈은 많이 드는데, code review까지 해준다.
 - [Udacity Developing Android Apps with Kotlin](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
   * Udacity의 모든 Android 프로그램은 Google 개발자들이 설계하고 관리하기에 듣기 좋다.
-
 - [아키텍처를 알아야 앱 개발이 보인다](https://ridibooks.com/books/3780000073)
   * 언어는 Java
-
 - 커니의 코틀린
 
 ## Java
