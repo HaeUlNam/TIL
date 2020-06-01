@@ -25,6 +25,9 @@
 - [Android 4대 Component](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/Android%204%20Component.md)
 - [Intent](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/Intent.md)
 - [Android 직렬화](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/%EC%A7%81%EB%A0%AC%ED%99%94.md)
+- [BroadCastReceiver Data 크기 제약](https://github.com/HaeUlNam/TIL/blob/master/Android/%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/BroadCastReceiver%20Data%20%ED%81%AC%EA%B8%B0%20%EC%A0%9C%EC%95%BD.md)
+
+
 - 비동기 처리 방법(AsyncTask, Rxjava..)
 - ListView vs RecylerView
 - ANR, Overdraw
