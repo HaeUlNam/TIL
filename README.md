@@ -87,6 +87,8 @@
 - [Access Modifier](https://github.com/HaeUlNam/TIL/blob/master/Java/Access%20Modifier.md)
 - [Type Casting](https://github.com/HaeUlNam/TIL/blob/master/Java/Type%20Casting.md)
 - [final vs finally vs finalize](https://github.com/HaeUlNam/TIL/blob/master/Java/final%20vs%20finally%20vs%20finalize.md)
+- [Generics](https://github.com/HaeUlNam/TIL/blob/master/Java/Generics.md)
+- Generics Type Erasure
 - Annotation
 - Reflection
 - Java8 Stream
