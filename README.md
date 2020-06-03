@@ -134,6 +134,7 @@
 ## ETC
 - [참고할만한 Book, 강의 리스트](https://github.com/HaeUlNam/TIL/blob/master/ETC/%EC%B0%B8%EA%B3%A0%ED%95%A0%EB%A7%8C%ED%95%9C%20Book%2C%20%EA%B0%95%EC%9D%98%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)
 - [Native App vs Hybrid App](https://github.com/HaeUlNam/TIL/blob/master/ETC/Native%20App%20vs%20Hybrid%20App.md)
+- C++ friendly
 - Android vs Ios
 - [웹브라우저를 통해 서버에 이미지를 요청해서 사용자에게 보여주기까지 과정](https://github.com/HaeUlNam/TIL/blob/master/ETC/%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EB%A5%BC%20%ED%86%B5%ED%95%B4%20%EC%84%9C%EB%B2%84%EC%97%90%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC%20%EC%9A%94%EC%B2%AD%ED%95%B4%EC%84%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%EC%97%90%EA%B2%8C%20%EB%B3%B4%EC%97%AC%EC%A3%BC%EA%B8%B0%EA%B9%8C%EC%A7%80%20%EA%B3%BC%EC%A0%95.md)
 - C++ Template vs Java Generic
