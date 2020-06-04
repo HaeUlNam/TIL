@@ -43,7 +43,6 @@
 - 둘 다 CMS GC 알고리즘을 사용하는데 자세한 건 [Java Garbage Collection](https://d2.naver.com/helloworld/1329)을 참고하자.
 - 간단하게 말하면 DVM은 stop-the-world 2회, ART은 stop-the-world 1회로 ART가 더 성능이 좋다.
   * stop-the-world가 자주 발생하면 사용자가 보는 UI 멈춤 등이 발생 가능.
-
 - 사실 이 부분은 너무 어렵긴하다.... 여유로울 때 한번 뜯어보자!!!
   * [구글 안드로이드 - ART 가비지 컬렉션 디버깅하기](https://source.android.com/devices/tech/dalvik/gc-debug)
 
