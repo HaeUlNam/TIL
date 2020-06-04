@@ -54,6 +54,21 @@ ELSE 아닐때
 END AS column 상위에 적는 것
 ```
 
+### DATETIME
+- 타입이 DATETIME일 때는 DATE_FORMAT으로 출력 format을 아래처럼 변경할 수 있다.
+```mysql
+DATE_FORMAT(DATETIME, '%Y-%m-%d')
+```
+
+- %y: 뒤에 2글자만(ex 2020년이면 20만 출력) 
+- %Y: 전체 출력(ex 2020년이면 2020)
+- %m: 월(ex 01, 02)
+- %M: 월(January, February)
+- %d: 날짜(숫자)
+- %d: 날짜(글자, 3rd)
+  
+
+
 
 ### 참고
 - [[oracle] 상위 n개 데이터만 뽑고 싶은 경우](http://blog.naver.com/PostView.nhn?blogId=nomadgee&logNo=220854618303)
