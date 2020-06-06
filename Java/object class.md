@@ -97,5 +97,5 @@ System.out.println(s1.equals(s2));
 
 
 ### 참고자료
-- (TCP School - Object 클래스)[http://tcpschool.com/java/java_api_object]
-- (Difference between == and .equals() method in Java)[https://www.geeksforgeeks.org/difference-equals-method-java/]
+- [TCP School - Object 클래스](http://tcpschool.com/java/java_api_object)
+- [Difference between == and .equals() method in Java](https://www.geeksforgeeks.org/difference-equals-method-java/)
