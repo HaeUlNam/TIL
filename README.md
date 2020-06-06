@@ -132,6 +132,9 @@
 ## Software Engineering
 - Waterfall vs agile
 
+## Book
+- 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
+
 ## ETC
 - [참고할만한 Book, 강의 리스트](https://github.com/HaeUlNam/TIL/blob/master/ETC/%EC%B0%B8%EA%B3%A0%ED%95%A0%EB%A7%8C%ED%95%9C%20Book%2C%20%EA%B0%95%EC%9D%98%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)
 - [Native App vs Hybrid App](https://github.com/HaeUlNam/TIL/blob/master/ETC/Native%20App%20vs%20Hybrid%20App.md)
