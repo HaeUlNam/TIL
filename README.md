@@ -46,6 +46,7 @@
 - [Transcation](https://github.com/HaeUlNam/TIL/blob/master/DataBase/Transaction.md)
 - [Transaction Isolation Level](https://github.com/HaeUlNam/TIL/blob/master/DataBase/Transaction%20Isolation%20Level.md)
 - 정규화(1차 2차 3차 BCNF)
+- Index Tree(B, B+ Tree)
 - SQL injection
 - [SQL](https://github.com/HaeUlNam/TIL/blob/master/DataBase/SQL.md)
 
