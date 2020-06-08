@@ -1,6 +1,8 @@
 ## 백엔드
 - 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
 - [부스트코드-웹 프로그래밍](https://www.edwith.org/boostcourse-web)
+- [네이버를 만든 기술, 읽으면서 배운다 자바편](http://www.yes24.com/Product/Goods/16813496)
+- [백엔드 개발자를 꿈꾸는 학생개발자에게](https://d2.naver.com/news/3435170)
 
 ## 안드로이드
 - Android Developer 공식사이트
