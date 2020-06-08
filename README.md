@@ -134,7 +134,6 @@
 
 ## Book / 강연
 - [스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://github.com/HaeUlNam/TIL/tree/master/Book_%EA%B0%95%EC%97%B0/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B6%80%ED%8A%B8%EC%99%80%20AWS%EB%A1%9C%20%ED%98%BC%EC%9E%90%20%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%20%EC%9B%B9%20%EC%84%9C%EB%B9%84%EC%8A%A4)
-
 - [(예정)우아한 객체지향](https://github.com/HaeUlNam/TIL/tree/master/Book_%EA%B0%95%EC%97%B0/%EC%9A%B0%EC%95%84%ED%95%9C%20%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5)
 
 ## ETC
