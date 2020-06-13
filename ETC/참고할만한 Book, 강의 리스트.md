@@ -29,6 +29,9 @@
 - [Udacity-Git](https://www.udacity.com/course/version-control-with-git--ud123)
 - [게임으로 배우는 깃](https://learngitbranching.js.org/?locale=ko)
 
+## 쿠버네티스
+- 쿠버네티스 입문 -> 쿠버네티스 인 액션 -> 쿠버네티스 패턴
+
 ## 알고리즘
 - 백준
 - 프로그래머스
