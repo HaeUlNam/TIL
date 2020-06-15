@@ -19,6 +19,7 @@
 
 ## Java
 - Effective Java
+- [자바봄 - 이펙티브 자바 정리 블로그](https://javabom.tistory.com/category/Reading%20Record/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94)
 - [POCU아카데미 - Java](https://pocu.academy/ko/Courses/COMP2500)
 - [네이버를 만든 기술, 읽으면서 배운다 자바편](http://www.yes24.com/Product/Goods/16813496)
 
@@ -53,3 +54,6 @@
 
 ## Code Quality
 - [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
+
+## 스터디 리딩
+- [자바봄이 이펙티브 자바를 읽는 방법](https://javabom.tistory.com/70?category=835782)
