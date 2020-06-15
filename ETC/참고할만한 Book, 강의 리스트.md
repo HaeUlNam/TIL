@@ -19,6 +19,7 @@
 ## Java
 - Effective Java
 - [POCU아카데미 - Java](https://pocu.academy/ko/Courses/COMP2500)
+- [네이버를 만든 기술, 읽으면서 배운다 자바편](http://www.yes24.com/Product/Goods/16813496)
 
 ## Kotlin
 - Kotlin in action
@@ -37,6 +38,9 @@
 
 ## 쿠버네티스
 - 쿠버네티스 입문 -> 쿠버네티스 인 액션 -> 쿠버네티스 패턴
+
+## DevOps
+- [DevOps Workshops](https://devops-art-factory.gitbook.io/devops-workshop/1.before-workshop/workshop)
 
 ## 알고리즘
 - 백준
