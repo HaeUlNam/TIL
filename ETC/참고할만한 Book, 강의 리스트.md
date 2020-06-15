@@ -23,6 +23,12 @@
 - [POCU아카데미 - Java](https://pocu.academy/ko/Courses/COMP2500)
 - [네이버를 만든 기술, 읽으면서 배운다 자바편](http://www.yes24.com/Product/Goods/16813496)
 
+## DataBase
+- [데이터 전문자 지식 포털](http://www.dbguide.net/db.db?cmd=view&boardUid=186812&boardConfigUid=9&boardIdx=152&boardStep=1)
+  * 데이터 실무 가이드
+  * MYSQL, SQL 가이드
+- [파워 오브 데이터베이스](https://book.naver.com/bookdb/book_detail.nhn?bid=14573316)  
+
 ## Kotlin
 - Kotlin in action
 
