@@ -26,7 +26,7 @@
 
 ## JavaScript
 - [모던 JavaScript 튜토리얼](https://ko.javascript.info/)
- * 모던 JavaScript 튜토리얼은 상세한 설명과 함께 JavaScript 기본 개념 및 고급 개념을 다룹니다.
+  * 모던 JavaScript 튜토리얼은 상세한 설명과 함께 JavaScript 기본 개념 및 고급 개념을 다룹니다.
 - [프로그래머스 자바스크립트 스터디](https://programmers.co.kr/learn/courses/10404)
 
 
