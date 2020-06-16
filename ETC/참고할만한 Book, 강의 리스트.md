@@ -64,6 +64,6 @@
 ## 스터디 리딩
 - [자바봄이 이펙티브 자바를 읽는 방법](https://javabom.tistory.com/70?category=835782)
 
-## 개발자로서 성장
+## 개발자
 - [개발자가 되기 전에 알았더라면 좋았을 것들](https://www.youtube.com/watch?v=3mlqkxs9LOg)
-
+- [개발자, 새 회사에서 시작한다면 꼭 해야할 것들](https://www.youtube.com/watch?v=CDG6AhmGj9w)
