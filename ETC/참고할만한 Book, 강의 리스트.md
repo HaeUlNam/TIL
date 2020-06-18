@@ -65,8 +65,9 @@
 - [기술면접 라이브 코딩 - 기본편](https://www.youtube.com/playlist?list=PL2mzT_U4XxDm7p6g1o3KeQMsyRLfzSaVW)
 - [기술면접 라이브 코딩 - 실전편](https://www.youtube.com/playlist?list=PL2mzT_U4XxDl8PP-jMk4rt6BPzBtS__pQ)
 
-## Code Quality
+## Code Quality/Test
 - [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
+- [유용한 테스트 케이스를 위한 개발자의 자세](https://blog.shiren.dev/2020-06-15-%EC%9C%A0%EC%9A%A9%ED%95%9C%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%A5%BC%EC%9C%84%ED%95%9C%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%EC%9E%90%EC%84%B8/)
 
 ## 스터디 리딩
 - [자바봄이 이펙티브 자바를 읽는 방법](https://javabom.tistory.com/70?category=835782)
