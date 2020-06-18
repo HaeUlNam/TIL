@@ -31,6 +31,7 @@
 
 ## Kotlin
 - Kotlin in action
+- [Kotlin 쿡북](http://www.yes24.com/Product/Goods/90452827)
 
 ## JavaScript
 - [모던 JavaScript 튜토리얼](https://ko.javascript.info/)
@@ -57,6 +58,9 @@
 
 ## Interview
 - https://trello.com/b/MugMXwGi/%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84%F0%9F%91%91
+- Cracking the Coding Interview
+  * 유투버 승지니어 추천!
+
 
 ## Code Quality
 - [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
