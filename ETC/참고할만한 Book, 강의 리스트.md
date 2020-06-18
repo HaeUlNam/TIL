@@ -33,6 +33,9 @@
 - Kotlin in action
 - [Kotlin 쿡북](http://www.yes24.com/Product/Goods/90452827)
 
+## 정규표현식
+- [정규표현식 - 프로그래머스](https://programmers.co.kr/learn/courses/11)
+
 ## JavaScript
 - [모던 JavaScript 튜토리얼](https://ko.javascript.info/)
   * 모던 JavaScript 튜토리얼은 상세한 설명과 함께 JavaScript 기본 개념 및 고급 개념을 다룹니다.
