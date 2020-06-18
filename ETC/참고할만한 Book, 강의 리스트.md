@@ -5,6 +5,12 @@
 - [네이버를 만든 기술, 읽으면서 배운다 자바편](http://www.yes24.com/Product/Goods/16813496)
 - [백엔드 개발자를 꿈꾸는 학생개발자에게](https://d2.naver.com/news/3435170)
 
+## Spring
+- [Spring Tips: The Spring Graal Native Feature(part 1)](https://www.youtube.com/watch?v=u1XJTI1PVLw&feature=youtu.be)
+  * 토비님 추천: 다 따라 쳐봐라
+- [Spring Tips: Spring and GraalVM (part 2)](https://www.youtube.com/watch?v=aTNLtU5YYtg)
+  * 토비님 추천: 다 따라 쳐봐라
+
 ## 안드로이드
 - Android Developer 공식사이트
 - Android Developer 사이트 CodeLab
