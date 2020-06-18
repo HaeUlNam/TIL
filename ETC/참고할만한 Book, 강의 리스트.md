@@ -59,8 +59,11 @@
 ## Interview
 - https://trello.com/b/MugMXwGi/%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84%F0%9F%91%91
 - Cracking the Coding Interview
-  * 유투버 승지니어 추천!
-
+  * [유투버 승지니어 추천!](https://www.youtube.com/watch?v=JG5rRw23dLI)
+- 시스템 디자인 인터뷰 준비: [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+  * [유투버 승지니어 추천!](https://www.youtube.com/watch?v=JG5rRw23dLI)
+- [기술면접 라이브 코딩 - 기본편](https://www.youtube.com/playlist?list=PL2mzT_U4XxDm7p6g1o3KeQMsyRLfzSaVW)
+- [기술면접 라이브 코딩 - 실전편](https://www.youtube.com/playlist?list=PL2mzT_U4XxDl8PP-jMk4rt6BPzBtS__pQ)
 
 ## Code Quality
 - [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
