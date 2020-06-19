@@ -28,6 +28,7 @@
 - [자바봄 - 이펙티브 자바 정리 블로그](https://javabom.tistory.com/category/Reading%20Record/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94)
 - [POCU아카데미 - Java](https://pocu.academy/ko/Courses/COMP2500)
 - [네이버를 만든 기술, 읽으면서 배운다 자바편](http://www.yes24.com/Product/Goods/16813496)
+- [Coursera - Parallel, Concurrent, and Distributed Programming in Java 특화 과정](https://www.coursera.org/specializations/pcdp?=#courses)
 
 ## DataBase
 - [데이터 전문자 지식 포털](http://www.dbguide.net/db.db?cmd=view&boardUid=186812&boardConfigUid=9&boardIdx=152&boardStep=1)
