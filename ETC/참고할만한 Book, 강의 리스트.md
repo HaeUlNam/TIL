@@ -85,3 +85,4 @@
 ## 개발자
 - [개발자가 되기 전에 알았더라면 좋았을 것들](https://www.youtube.com/watch?v=3mlqkxs9LOg)
 - [개발자, 새 회사에서 시작한다면 꼭 해야할 것들](https://www.youtube.com/watch?v=CDG6AhmGj9w)
+- [임백준님 - 개발자의 평생공부](https://n.news.naver.com/mnews/article/092/0002118475?sid=105)
