@@ -60,7 +60,7 @@
 - [Udacity-Git](https://www.udacity.com/course/version-control-with-git--ud123)
 - [게임으로 배우는 깃](https://learngitbranching.js.org/?locale=ko)
 - [[eBook] 팀 개발을 위한 Git, GitHub 시작하기](https://www.aladin.co.kr/m/mproduct.aspx?itemid=227707551)
-
+- [Github-Cookbook](https://github.com/soogoon/Github-Cookbook/blob/master/Git-Github-Collaborating.md)
 
 ## 아키텍처
 - [[KSUG Seminar] Growing Application - 2nd. 애플리케이션 아키텍처와 객체지향](https://www.youtube.com/watch?v=26S4VFUWlJM)
