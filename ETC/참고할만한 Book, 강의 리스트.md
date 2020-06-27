@@ -29,12 +29,16 @@
 - [POCU아카데미 - Java](https://pocu.academy/ko/Courses/COMP2500)
 - [네이버를 만든 기술, 읽으면서 배운다 자바편](http://www.yes24.com/Product/Goods/16813496)
 - [Coursera - Parallel, Concurrent, and Distributed Programming in Java 특화 과정](https://www.coursera.org/specializations/pcdp?=#courses)
+- Real-World Software Development
 
 ## DataBase
 - [데이터 전문자 지식 포털](http://www.dbguide.net/db.db?cmd=view&boardUid=186812&boardConfigUid=9&boardIdx=152&boardStep=1)
   * 데이터 실무 가이드
   * MYSQL, SQL 가이드
 - [파워 오브 데이터베이스](https://book.naver.com/bookdb/book_detail.nhn?bid=14573316)  
+
+## 네트워크
+- 성공과 실패를 결정하는 1%의 네트워크 원리
 
 ## Kotlin
 - Kotlin in action
@@ -54,6 +58,16 @@
 - [생활코딩-지옥에서 온 Git](https://opentutorials.org/course/2708)
 - [Udacity-Git](https://www.udacity.com/course/version-control-with-git--ud123)
 - [게임으로 배우는 깃](https://learngitbranching.js.org/?locale=ko)
+
+
+## 아키텍처
+- [[KSUG Seminar] Growing Application - 2nd. 애플리케이션 아키텍처와 객체지향](https://www.youtube.com/watch?v=26S4VFUWlJM)
+- [[우아한테크세미나] 190620 우아한객체지향 by 우아한형제들 개발실장 조영호님](https://www.youtube.com/watch?v=dJ5C4qRqAgA)
+
+## Code Quality/Test
+- [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
+- [유용한 테스트 케이스를 위한 개발자의 자세](https://blog.shiren.dev/2020-06-15-%EC%9C%A0%EC%9A%A9%ED%95%9C%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%A5%BC%EC%9C%84%ED%95%9C%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%EC%9E%90%EC%84%B8/)
+
 
 ## 쿠버네티스
 - 쿠버네티스 입문 -> 쿠버네티스 인 액션 -> 쿠버네티스 패턴
@@ -75,14 +89,6 @@
 - [기술면접 라이브 코딩 - 기본편](https://www.youtube.com/playlist?list=PL2mzT_U4XxDm7p6g1o3KeQMsyRLfzSaVW)
 - [기술면접 라이브 코딩 - 실전편](https://www.youtube.com/playlist?list=PL2mzT_U4XxDl8PP-jMk4rt6BPzBtS__pQ)
 
-## 아키텍처
-- [[KSUG Seminar] Growing Application - 2nd. 애플리케이션 아키텍처와 객체지향](https://www.youtube.com/watch?v=26S4VFUWlJM)
-- [[우아한테크세미나] 190620 우아한객체지향 by 우아한형제들 개발실장 조영호님](https://www.youtube.com/watch?v=dJ5C4qRqAgA)
-
-## Code Quality/Test
-- [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
-- [유용한 테스트 케이스를 위한 개발자의 자세](https://blog.shiren.dev/2020-06-15-%EC%9C%A0%EC%9A%A9%ED%95%9C%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%A5%BC%EC%9C%84%ED%95%9C%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%EC%9E%90%EC%84%B8/)
-
 ## 스터디 리딩
 - [자바봄이 이펙티브 자바를 읽는 방법](https://javabom.tistory.com/70?category=835782)
 
@@ -90,3 +96,5 @@
 - [개발자가 되기 전에 알았더라면 좋았을 것들](https://www.youtube.com/watch?v=3mlqkxs9LOg)
 - [개발자, 새 회사에서 시작한다면 꼭 해야할 것들](https://www.youtube.com/watch?v=CDG6AhmGj9w)
 - [임백준님 - 개발자의 평생공부](https://n.news.naver.com/mnews/article/092/0002118475?sid=105)
+
+
