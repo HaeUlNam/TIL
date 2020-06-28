@@ -70,6 +70,9 @@
 - [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
 - [유용한 테스트 케이스를 위한 개발자의 자세](https://blog.shiren.dev/2020-06-15-%EC%9C%A0%EC%9A%A9%ED%95%9C%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%A5%BC%EC%9C%84%ED%95%9C%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%EC%9E%90%EC%84%B8/)
 
+## 운영체제 
+- [[컴퓨터 공학]운영체제 공부 리뷰(어떻게 운영체제 공부를 시작할까?)](https://covenant.tistory.com/100)
+
 
 ## 쿠버네티스
 - 쿠버네티스 입문 -> 쿠버네티스 인 액션 -> 쿠버네티스 패턴
