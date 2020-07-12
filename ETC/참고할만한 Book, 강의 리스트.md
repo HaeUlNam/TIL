@@ -85,6 +85,10 @@
 - 프로그래머스
 - Leetcode
 
+## MSA
+- [행복을 찾기 위한 우리의 여정, 쿠팡 MSA](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61)
+- [마이크로소프트웨어 394호 클라우드 혹은 도전(CLOUD or DARE) - DDD와 MSA로 쇼핑몰 구축하기](https://www.imaso.co.kr/archives/3939)
+
 ## Interview
 - https://trello.com/b/MugMXwGi/%EB%A9%B4%EC%A0%91%EC%A4%80%EB%B9%84%F0%9F%91%91
 - Cracking the Coding Interview
