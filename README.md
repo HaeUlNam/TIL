@@ -137,6 +137,8 @@
 - [(예정)우아한 객체지향](https://github.com/HaeUlNam/TIL/tree/master/Book_%EA%B0%95%EC%97%B0/%EC%9A%B0%EC%95%84%ED%95%9C%20%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5)
 - 웹을 지탱하는 기술
 - 자바의 정석
+- 백명석님의 Clean Coder 강의
+  - https://www.youtube.com/watch?v=60lLSe1phks&list=PLuLb6MC4SOvXCRePHrb4e-EYadjZ9KHyH&index=2&t=0s
 
 ## ETC
 - [참고할만한 Book, 강의 리스트](https://github.com/HaeUlNam/TIL/blob/master/ETC/%EC%B0%B8%EA%B3%A0%ED%95%A0%EB%A7%8C%ED%95%9C%20Book%2C%20%EA%B0%95%EC%9D%98%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)
