@@ -1,1 +1,1 @@
-[CoukieStudy Item 1](https://github.com/coukieStudy/Effective-Java/tree/master/Item%201)
+- [CoukieStudy Item 1](https://github.com/coukieStudy/Effective-Java/tree/master/Item%201)
