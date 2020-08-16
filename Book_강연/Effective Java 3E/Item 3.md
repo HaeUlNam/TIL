@@ -55,6 +55,8 @@ public class Elvis {
    - 아래 compare을 재정의한 부분은 Collection.sort나 arrayList.sort등을 사용할 때 내부에서 사용된다.
    - 정적 팩터리의 메서드 참조를 공급자(Supplier)로 사용할 수 있다는 점
    - Elvis::getInstance를 Supplier<Elvis>로 사용하는 식(Item 43, 44) 
+ ![image](https://user-images.githubusercontent.com/26040955/90335788-43380780-e012-11ea-9ce2-3d5d3c982e77.png)
+
 
 ### 셋째, Enum 타입
 ```java
