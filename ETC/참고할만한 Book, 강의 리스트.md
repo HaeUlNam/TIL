@@ -65,6 +65,7 @@
 ## 아키텍처
 - [[KSUG Seminar] Growing Application - 2nd. 애플리케이션 아키텍처와 객체지향](https://www.youtube.com/watch?v=26S4VFUWlJM)
 - [[우아한테크세미나] 190620 우아한객체지향 by 우아한형제들 개발실장 조영호님](https://www.youtube.com/watch?v=dJ5C4qRqAgA)
+- 로버트 마틴 - Clean Architecture
 
 ## Code Quality/Test
 - [우아한테크코스-Javable](https://woowacourse.github.io/javable/)
