@@ -7,6 +7,8 @@
 - [백엔드 개발자 로드맵](https://velog.io/@exploit017/2020-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A1%9C%EB%93%9C%EB%A7%B5?fbclid=IwAR0ncLwd2i7sK5yw-byITi5S-ROxreJdXaV6EWJhHwMJ52pAQNvsbPhpB_c)
 - https://www.udemy.com/course/spring-framework-5-beginner-to-guru/#instructor-1
 - [Spring Guru](https://springframework.guru/)
+- [SpringDeveloper](https://www.youtube.com/user/SpringSourceDev/playlists)
+- [Spring 개념 정리](https://github.com/pjok1122/Spring-Summary)
 
 ## Spring
 - [Spring Tips: The Spring Graal Native Feature(part 1)](https://www.youtube.com/watch?v=u1XJTI1PVLw&feature=youtu.be)
