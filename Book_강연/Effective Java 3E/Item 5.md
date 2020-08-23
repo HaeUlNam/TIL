@@ -58,6 +58,9 @@ public class SpellChecker {
  ```
 
 ### DI vs Factory method pattern
-- ??
+- TODO) 읽기 
+- https://springframework.guru/gang-of-four-design-patterns/factory-method-design-pattern/
+- https://springframework.guru/gang-of-four-design-patterns/abstract-factory-design-pattern/
+- DI == Factory method는 아닌 듯..?
 
 
