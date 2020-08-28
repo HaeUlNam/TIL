@@ -116,7 +116,7 @@
 ## BackEnd
 
 - L4, L6 Load Balancer
-- cookie and session
+- cookie and session: https://jeong-pro.tistory.com/80
 
 ## OS
 - [Process](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Process.md)
