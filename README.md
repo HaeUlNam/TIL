@@ -119,6 +119,9 @@
 - L4, L6 Load Balancer
 - cookie and session: https://jeong-pro.tistory.com/80
 
+## Test
+- [Spock Framework이란?](https://www.notion.so/Spock-Framework-a14cd41bded4473bb65793f427cc6fc5)
+
 ## OS
 - [Process](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Process.md)
 - [Thread](https://github.com/HaeUlNam/TIL/blob/master/OperatingSystem/Thread.md)
@@ -137,9 +140,6 @@
 
 ## AWS
 - [AWS Essential | T아카데미](https://www.youtube.com/watch?v=sQQQ5nPDM54&list=PL9mhQYIlKEhfLn22kukoZrt0GuTLRARUK&index=13)
-
-## TechBlog
-
 
 ## Book / 강연
 - [스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://github.com/HaeUlNam/TIL/tree/master/Book_%EA%B0%95%EC%97%B0/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B6%80%ED%8A%B8%EC%99%80%20AWS%EB%A1%9C%20%ED%98%BC%EC%9E%90%20%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%20%EC%9B%B9%20%EC%84%9C%EB%B9%84%EC%8A%A4)
