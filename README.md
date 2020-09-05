@@ -116,7 +116,7 @@
 
 ## BackEnd
 
-- L4, L6 Load Balancer
+- [L4, L6 Load Balancer](https://www.notion.so/L4-L7-34969774dfea4290a6c289a9da0325ca)
 - cookie and session: https://jeong-pro.tistory.com/80
 
 ## Test
