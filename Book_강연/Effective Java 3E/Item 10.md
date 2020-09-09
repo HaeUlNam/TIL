@@ -47,8 +47,8 @@
   * 값 클래스라고 해도 값이 같은 인스턴스가 둘 이상 만들어지지 않음을 보장하는 인스턴스 통제 클래스라면 equals를 재정의하지 않아도 된다. ex) Enum의 경우 논리적 동치성 = 객체 식별성
 
 ## equals 메서드를 재정의할 때의 일반 규약
-- 반사성: null이 아닌 모든 참조 값 x에 대해, x.equals(x)는 true이다.
-- 대칭성: null이 아닌 모든 참조 값 x, y에 대해, x.equals(y)가 true면 y.equals(x)도 true다.
+### 반사성: null이 아닌 모든 참조 값 x에 대해, x.equals(x)는 true이다.
+### 대칭성: null이 아닌 모든 참조 값 x, y에 대해, x.equals(y)가 true면 y.equals(x)도 true다.
   * 아래의 예제는 대칭성을 지키지 못했다. CaseInsensitiveString/String 순서로는 비교가 되는데, String/CaseInsensitiveString 순서로는 비교가 불가능. (String 재정의가 안되니깐)
   ```java
   public final class CaseInsensitiveString {
@@ -74,7 +74,74 @@
        ((CaseInsensitiveString) o).s.equalsIgnoreCase(s);
   }
   ```
-- 추이성: 1과 2가 같고, 2와 3이 같으면, 1과 3도 같아야 한다는 것
+### 추이성: 1과 2가 같고, 2와 3이 같으면, 1과 3도 같아야 한다는 것
+
+```java
+public class Point { 
+  private final int x; 
+  private final int y;
+
+  public Point(int x, int y) { 
+    this.x = x;
+    this.y = y; 
+  }
+  @Override public boolean equals(Object o) { 
+    if (!(o instanceof Point))
+      return false;
+    Point p = (Point)o;
+    return p.x == x && p.y == y;
+}
+... // 나머지 코드는 생략 }
+```
+```java
+public class ColorPoint extends Point { 
+  private final Color color;
+  public ColorPoint(int x, int y, Color color) { 
+    super(x, y);
+    this.color = color; 
+  }
+... // 나머지 코드는 생략 }
+```
+
+- 위와 같이 두 클래스가 존재할 때 ColorPoint의 equals를 아래와 같이 짜면 어떨까?
+```java
+@Override public boolean equals(Object o) { 
+  if (!(o instanceof ColorPoint))
+    return false;
+  return super.equals(o) && ((ColorPoint) o).color == color;
+}
+```
+```java
+Point p = new Point(1,2);
+ColorPoint cp = new ColorPoint(1, 2, Color.RED);
+```
+- 위에 대해 p.equals(cp)는 true, cp.equals(p)는 false를 반환한다.
+  * 따라서 대칭성을 만족하지 못한다. (Point는 Color를 무시하고 비교하기에 true가 나온다)
+  * 이런 경우 대칭성을 만족시키기 위해 Point와 ColorPoint 비교 시 색을 무시하면 어떻게 되나?
+
+```java
+@Override public boolean equals(Object o) { 
+  if (!(o instanceof ColorPoint))
+    return false;
+  if (!(o instanceof ColorPoint))
+    return o.equals(this);
+  return super.equals(o) && ((ColorPoint) o).color == color;
+}
+```
+```java
+ColorPoint p1 = new ColorPoint(1, 2, Color.RED); //A
+Point p2 = new Point(1, 2); //B
+ColorPoint p3 = new ColorPoint(1, 2, Color.BLUE); //C
+```
+
+- 대칭성은 만족시키지만 추이성을 만족시키지 못한다.
+  * A == B, B == C, A != C이기 때문에 추이성을 만족하지 못한다.
+  * 무한 재귀의 위험성: Point의 또 다른 하위 클래스로 SmellPoint를 만들고, 같은 방식으로 equals 구현 후 myColorPoint.equals(mySmellPoint)를 호출하면 StackOverflowError가 발생한다
+
+- 해결책: 구체 클래스를 확장해 새로운 값을 추가하면서 equals 규약을 만족시킬 방법은 존재하지 않는다.
+
+
+
 - 일관성
 - null-아님
 
