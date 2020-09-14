@@ -18,6 +18,9 @@
 - [Spring Tips: Spring and GraalVM (part 2)](https://www.youtube.com/watch?v=aTNLtU5YYtg)
   * 토비님 추천: 다 따라 쳐봐라
 
+## 시스템 디자인
+- http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791158390983&orderClick=JAj
+
 ## 안드로이드
 - Android Developer 공식사이트
 - Android Developer 사이트 CodeLab
